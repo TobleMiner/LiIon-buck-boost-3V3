@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name liion-buck_boost_3)(type KiCad)(uri /home/tsys/work/pcb/liion-buck_boost_3.3)(options "")(descr ""))
+  (lib (name buckboost)(type KiCad)(uri /home/tsys/work/pcb/liion-buck_boost_3.3/buckboost)(options "")(descr ""))
+)

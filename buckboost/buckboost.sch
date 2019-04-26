@@ -1,0 +1,216 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tps63031:TPS63031 U1
+U 1 1 5CA620E9
+P 5650 4350
+F 0 "U1" H 5650 5017 50  0000 C CNN
+F 1 "TPS63031" H 5650 4926 50  0000 C CNN
+F 2 "liion-buck_boost_3:Texas_DRC0010J_ThermalVias.3" H 6500 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 5350 4900 50  0001 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4350 6200 4350
+Wire Wire Line
+	6200 4350 6200 4150
+Wire Wire Line
+	6200 4150 6050 4150
+$Comp
+L Device:L L1
+U 1 1 5CA631EC
+P 5650 3550
+F 0 "L1" V 5840 3550 50  0000 C CNN
+F 1 "L" V 5749 3550 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 3550 50  0001 C CNN
+F 3 "~" H 5650 3550 50  0001 C CNN
+	1    5650 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3550 6200 3950
+Wire Wire Line
+	6200 3950 6050 3950
+Wire Wire Line
+	5800 3550 6200 3550
+Wire Wire Line
+	5500 3550 5100 3550
+Wire Wire Line
+	5100 3550 5100 3950
+Wire Wire Line
+	5100 3950 5250 3950
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5CA645E2
+P 4300 4250
+F 0 "J1" H 4408 4531 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4408 4440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4300 4250 50  0001 C CNN
+F 3 "~" H 4300 4250 50  0001 C CNN
+	1    4300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4350 5250 4350
+Wire Wire Line
+	4500 4150 4750 4150
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA6501E
+P 4600 5050
+F 0 "#PWR0101" H 4600 4800 50  0001 C CNN
+F 1 "GND" H 4605 4877 50  0000 C CNN
+F 2 "" H 4600 5050 50  0001 C CNN
+F 3 "" H 4600 5050 50  0001 C CNN
+	1    4600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4250 4600 4250
+Wire Wire Line
+	4600 4250 4600 5050
+$Comp
+L Device:C C1
+U 1 1 5CA65EC4
+P 4750 4650
+F 0 "C1" H 4800 4750 50  0000 L CNN
+F 1 "10µF" H 4800 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4788 4500 50  0001 C CNN
+F 3 "~" H 4750 4650 50  0001 C CNN
+	1    4750 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4500 4750 4150
+Connection ~ 4750 4150
+Wire Wire Line
+	4750 4150 5250 4150
+Wire Wire Line
+	4750 4800 4750 5050
+Wire Wire Line
+	4750 5050 4600 5050
+Connection ~ 4600 5050
+$Comp
+L Device:C C2
+U 1 1 5CA66CF7
+P 5050 4650
+F 0 "C2" H 5165 4696 50  0000 L CNN
+F 1 "100nF" H 5100 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5088 4500 50  0001 C CNN
+F 3 "~" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4500 5050 4250
+Wire Wire Line
+	5050 4250 5150 4250
+Wire Wire Line
+	5250 4550 5150 4550
+Wire Wire Line
+	5150 4550 5150 4250
+Connection ~ 5150 4250
+Wire Wire Line
+	5150 4250 5250 4250
+Wire Wire Line
+	5050 4800 5050 5050
+Wire Wire Line
+	5050 5050 4750 5050
+Connection ~ 4750 5050
+Wire Wire Line
+	5050 5050 5550 5050
+Wire Wire Line
+	5550 5050 5550 4950
+Connection ~ 5050 5050
+Wire Wire Line
+	5550 5050 5650 5050
+Wire Wire Line
+	5650 5050 5650 4950
+Connection ~ 5550 5050
+Wire Wire Line
+	5650 5050 5750 5050
+Wire Wire Line
+	5750 5050 5750 4950
+Connection ~ 5650 5050
+$Comp
+L Device:C C3
+U 1 1 5CA68B7E
+P 6450 4600
+F 0 "C3" H 6565 4646 50  0000 L CNN
+F 1 "10µF" H 6565 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 4450 50  0001 C CNN
+F 3 "~" H 6450 4600 50  0001 C CNN
+	1    6450 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5CA68FF0
+P 6800 4600
+F 0 "C4" H 6915 4646 50  0000 L CNN
+F 1 "10µF" H 6915 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6838 4450 50  0001 C CNN
+F 3 "~" H 6800 4600 50  0001 C CNN
+	1    6800 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4450 6450 4150
+Wire Wire Line
+	6450 4150 6200 4150
+Connection ~ 6200 4150
+Wire Wire Line
+	6800 4450 6800 4150
+Wire Wire Line
+	6800 4150 6450 4150
+Connection ~ 6450 4150
+Wire Wire Line
+	6450 4750 6450 5050
+Wire Wire Line
+	6450 5050 5750 5050
+Connection ~ 5750 5050
+Wire Wire Line
+	6800 4750 6800 5050
+Wire Wire Line
+	6800 5050 6450 5050
+Connection ~ 6450 5050
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5CA6AE98
+P 7350 4250
+F 0 "J2" H 7322 4132 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7322 4223 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 4250 50  0001 C CNN
+F 3 "~" H 7350 4250 50  0001 C CNN
+	1    7350 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6800 4150 7150 4150
+Connection ~ 6800 4150
+Wire Wire Line
+	7150 4250 7150 5050
+Wire Wire Line
+	7150 5050 6800 5050
+Connection ~ 6800 5050
+Text Label 4950 4150 0    50   ~ 0
+VIN
+Text Label 6950 4150 0    50   ~ 0
+VOUT
+Text Label 4850 4350 0    50   ~ 0
+EN
+$EndSCHEMATC

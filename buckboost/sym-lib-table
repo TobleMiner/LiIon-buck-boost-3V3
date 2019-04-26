@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tps63031)(type Legacy)(uri /home/tsys/work/pcb/liion-buck_boost_3.3/tps63031.lib)(options "")(descr ""))
+)
