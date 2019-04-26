@@ -19,7 +19,7 @@ U 1 1 5CA620E9
 P 5650 4350
 F 0 "U1" H 5650 5017 50  0000 C CNN
 F 1 "TPS63031" H 5650 4926 50  0000 C CNN
-F 2 "Package_SON:Texas_DRC0010J_ThermalVias" H 6500 3800 50  0001 C CNN
+F 2 "liion-buck_boost_3:Texas_DRC0010J_ThermalVias.3" H 6500 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps63000.pdf" H 5350 4900 50  0001 C CNN
 	1    5650 4350
 	1    0    0    -1  

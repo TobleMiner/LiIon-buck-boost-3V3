@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:buckboost-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -32,13 +33,13 @@ Wire Wire Line
 	6200 4150 6050 4150
 $Comp
 L Device:L L1
-U 1 1 5CA631EC
+U 0 0 5CA631EC
 P 5650 3550
 F 0 "L1" V 5840 3550 50  0000 C CNN
-F 1 "L" V 5749 3550 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 5650 3550 50  0001 C CNN
+F 1 "1.5 µH" V 5749 3550 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metri" H 5650 3550 50  0001 C CNN
 F 3 "~" H 5650 3550 50  0001 C CNN
-	1    5650 3550
+	0    5650 3550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
