@@ -10,8 +10,8 @@ The board is designed to be both small and fit a standard breadboard.
 
 ## Top
 
-[PCB top](images/top.png)
+![PCB top](images/top.png)
 
 ## Bottom
 
-[PCB bottom](images/bottom.png)
+![PCB bottom](images/bottom.png)
